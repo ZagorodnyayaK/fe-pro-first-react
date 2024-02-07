@@ -1,4 +1,4 @@
-import logo from 'public/logo192.png';
+import logo from 'public/images/logo1.png';
 import "./Header.css";
 export function Header() {
     return (
