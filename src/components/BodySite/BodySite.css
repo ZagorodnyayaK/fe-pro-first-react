@@ -26,6 +26,7 @@ li:hover {
 
 .description {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     border: solid 1px;
     padding: 10px;

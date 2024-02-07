@@ -1,5 +1,4 @@
 import "./BodySite.css";
-import logo from "../Header/logo.png";
 
 const itemsInfo = [
     {
