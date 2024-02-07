@@ -31,7 +31,7 @@ const itemsInfo = [
         size: '2 332 KB',
         category: 'nature',
         dimensions_pic: '4928 x 3294',
-        id: 3
+        id: 4
     }
 ]
 
@@ -52,10 +52,10 @@ export function BodySite() {
                                 <div className="item-description" key={item.id}>
                                 <h2>{item.name}</h2>
                                     <img className="item-img" src={item.img} alt="img"/>
-                                <p>{item.size}</p>
-                                <p>{item.category}</p>
-                                <p>{item.dimensions_pic}</p>
-                                <button>Download</button>
+                                <p>Size: {item.size}</p>
+                                <p>Category: {item.category}</p>
+                                <p>Dimension: {item.dimensions_pic}</p>
+                                <button className="button-description">Download</button>
                             </div>)
                     })
                 }
