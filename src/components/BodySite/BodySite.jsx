@@ -1,4 +1,5 @@
 import "./BodySite.css";
+import logo from "../Header/logo.png";
 
 const itemsInfo = [
     {
@@ -49,9 +50,9 @@ export function BodySite() {
                 {
                     itemsInfo.map((item) => {
                         return (
-                                <div className="item-description" key={item.id}>
+                            <div className="item-description" key={item.id}>
                                 <h2>{item.name}</h2>
-                                    <img className="item-img" src={item.img} alt="img"/>
+                                <img className="item-img" src={item.img} alt="img"/>
                                 <p>Size: {item.size}</p>
                                 <p>Category: {item.category}</p>
                                 <p>Dimension: {item.dimensions_pic}</p>
