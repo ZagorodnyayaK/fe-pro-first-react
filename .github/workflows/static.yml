@@ -41,7 +41,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build # The folder the action should deploy.
-          token: ${{ APP_TOKEN }}
+          token: ${{ secrets.APP_TOKEN }}
 #      - name: Setup Pages
 #        uses: actions/configure-pages@v4
 #      - name: Upload artifact
